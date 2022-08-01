@@ -1,0 +1,40 @@
+{
+  "info": {
+    "all_movement": {
+      "address": 515,
+      "type": "=d2"
+    },
+    "bubble": {
+      "address": 211,
+      "type": "|u1"
+    },
+    "enemies": {
+      "address": 1174,
+      "type": "|u1"
+    },
+    "level": {
+      "address": 1025,
+      "type": "|u1"
+    },
+    "lives": {
+      "address": 46,
+      "type": "|u1"
+    },
+    "score": {
+      "address": 56,
+      "type": ">n6"
+    },
+    "time_tick": {
+      "address": 1118,
+      "type": "<u4"
+    },
+    "x": {
+      "address": 515,
+      "type": "|u1"
+    },
+    "y": {
+      "address": 516,
+      "type": "|d1"
+    }
+  }
+}
