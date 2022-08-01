@@ -13,6 +13,7 @@ tom7 - Computer program that learns to play classic NES games - https://www.yout
 AI Playpen - Can AI learn to play [Bubble Bobble]? (NES) - https://www.youtube.com/watch?v=srWLzDyfM8M
 
 My Videos:
+
 Video Example - https://youtu.be/FbtvmHh47L4
 
 Overview:
