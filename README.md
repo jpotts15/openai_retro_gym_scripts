@@ -3,10 +3,17 @@ Some OpenAI Retrogym scripts and related
 
 Most of this is derived from: 
 openai gym retro - https://retro.readthedocs.io/en/latest/index.html
+
 Lucas Thompson - Results of Tutorial on Sonic 2 - EP0 - Open-AI and NEAT Tutorial - https://www.youtube.com/watch?v=pClGmU1JEsM&list=PLTWFMbPFsvz3CeozHfeuJIXWAJMkPtAdS&index=1&t=7s
+
 deepanshut041 - Reinforcement-Learning, Implementations of Deep Reinforcement Learning Algorithms and Bench-marking with PyTorch - https://deepanshut041.github.io/Reinforcement-Learning/cgames/05_sonic/
+
 tom7 - Computer program that learns to play classic NES games - https://www.youtube.com/watch?v=xOCurBYI_gY
+
 AI Playpen - Can AI learn to play [Bubble Bobble]? (NES) - https://www.youtube.com/watch?v=srWLzDyfM8M
+
+My Videos:
+Video Example - https://youtu.be/FbtvmHh47L4
 
 Overview:
 Original inspriation to try building a retro gameplaying AI was from the Tom7 video above but quickly found the openai gym retro which takes care of most of the work and makes this something that anyone with basic python, linux, etc experience can do. 
