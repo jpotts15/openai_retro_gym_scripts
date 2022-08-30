@@ -1,4 +1,4 @@
-# openai_retro_gym_scripts
+**# openai_retro_gym_scripts**
 Some OpenAI Retrogym scripts and related 
 
 
@@ -14,12 +14,12 @@ tom7 - Computer program that learns to play classic NES games - https://www.yout
 AI Playpen - Can AI learn to play [Bubble Bobble]? (NES) - https://www.youtube.com/watch?v=srWLzDyfM8M
 
 
-My Videos:
+**My Videos:**
 
 Video Example - https://youtu.be/FbtvmHh47L4
 
 
-Overview:
+**Overview:**
 
 Original inspriation to try building a retro gameplaying AI was from the Tom7 video above but quickly found the openai gym retro which takes care of most of the work and makes this something that anyone with basic python, linux, etc experience can do. 
 
@@ -30,12 +30,12 @@ I found that most of these gameplaying AIs are built for side scrollers so I wan
 4. Rewards are somewhat delayed or require sets of actions
 
 
-Goal:
+**Goal:**
 
 Build a AI that can beat Bubble Bobble
 
 
-Requirements:
+**Requirements:**
 
 1. Keep the AI general so that it can play other games or be modified to act on other combinations of other inputs/outputs
 2. Create reproducable results
@@ -43,12 +43,12 @@ Requirements:
 4. Display the screen as the AI plays
 
 
-State:
+**State:**
 
 Unfinished, all AIs so far have hit a wall at one place or another. This is a side project so updating as I have time and inclination. 
 
 
-Observations:
+**Observations:**
 
 1. Most AI algos perform similarly 
 2. A random bot (one that just creates a list of random actions and does them) performs well mainly due to the speed it can brute force actions that create rewards
@@ -57,7 +57,7 @@ Observations:
 5. Bubble bobble allows for input faster then action can take place so padding is added so that only real actions are computed
 
 
-Improvements Implemented:
+**Improvements Implemented:**
 
 1. Normalized the output of the neural network (hidden and direct outputs) 
 	The retro gym wants list output for the action containing 9 values for NES. It will accept float values in the list but only seems to act on a 1 and everything else is considered a zero (although need to confirm in code). Normalizing this creates a wider range of actions closer to what the AI wants. Also negative values and values out of bound cause crashing.
@@ -67,14 +67,14 @@ Improvements Implemented:
 4. Hashing of the screen to give a different way to feed inputs into the network
 
 
-Improvements needed: 
+**Improvements needed: **
 
 1. Better evolution/randomization later to break out of loops
 2. Better optimization
 3. Improve parallelization, can be run currently but not displaying the screen 
 
 
-Quick overview to build the enviorment:
+**Quick overview to build the enviorment:**
 
 1. Install python 3.8
 2. Build a new virtual enviroment for retro gym
@@ -85,7 +85,7 @@ Quick overview to build the enviorment:
 7. Run the desired script
 
 
-To Do:
+**To Do:**
 
 1. Import all AI scripts
 2. Move the normilization into a module
