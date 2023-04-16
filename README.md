@@ -1,5 +1,6 @@
-**# openai_retro_gym_scripts**
-Some OpenAI Retrogym scripts and related 
+# OpenAI Retrogym Learning
+
+Some OpenAI Retrogym scripts and related. I find this is a fun and somewhat straight forward way to advance learning python
 
 
 Most of this is derived from: 
